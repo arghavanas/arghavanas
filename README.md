@@ -4,30 +4,30 @@ Hi there! I’m Arghavan – a passionate and persistent IT professional with a 
 
 ---
 
-## 🚀 What I Do
+##  What I Do
 
 - 🛠 **Database Engineering & Performance Tuning**
   - 10+ years of experience in SQL Server, PostgreSQL, Oracle, and Cassandra
   - SQL performance tuning, indexing strategies, query optimization
   - Data integrity, normalization, and high-availability solutions
 
-- 📊 **Data Science & Analytics**
+-  **Data Science & Analytics**
   - Forecasting models using Holt-Winters, ARIMA, and function approximation
   - Data storytelling with Power BI dashboards and ETL pipelines
   - Academic research in Customer Churn Prediction and Inventory Optimization
 
-- ⚙️ **DevOps & Automation**
+- ⚙ **DevOps & Automation**
   - Integrating Docker, Python, and SQL for reproducible environments
   - Hands-on with GitHub workflows, CI/CD, and containerized deployments
 
-- 📚 **Lifelong Learner**
+-  **Lifelong Learner**
   - Currently pursuing certifications in IBM, Snowflake, and Oracle
   - Studying Data Lakes, AI-powered analytics, and real-time data streams
   - Blending classical computing knowledge with cutting-edge tech
 
 ---
 
-## 🧠 Projects I'm Proud Of
+##  Projects I'm Proud Of
 
 - `sales-forecasting-py-sql`: A full pipeline using Holt-Winters & SQL for retail demand prediction
 - `sql-perf-optimizer`: Analyze and auto-tune SQL queries with Python
