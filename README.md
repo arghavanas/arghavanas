@@ -1,107 +1,141 @@
-👋 Welcome — Arghavan | Data Systems Architect & Applied Data Scientist
+# 👋 Hi, I’m Arghavan
 
-I design and operationalize data systems that actually drive decisions—not dashboards that look pretty and die quietly.
+I work at the intersection of **data engineering, database systems, ERP analytics, business intelligence, and applied data science**.
 
-With a foundation in enterprise ERP environments, database architecture, and analytics, I work at the intersection of data engineering, BI, and applied machine learning. My focus is pragmatic: build pipelines, validate assumptions, and deliver outputs that stakeholders can act on.
+My focus is simple: turning messy operational data into reliable pipelines, analytical models, and decision-ready systems.
 
-🧠 What I Work On (In Practice)
-⚙️ Data Architecture & Engineering
-Designing end-to-end data pipelines (SQL → Python → Lakehouse / BI)
-Working with heterogeneous systems: ERP (Godesys), WMS, MySQL services, SQL Server
-Building data warehouse layers (fact/dimension modeling, incremental loads, CDC-ready design)
-Solving real-world constraints: legacy systems, inconsistent schemas, limited infra
-🗄 Database Systems & Performance
-Deep expertise in SQL Server (SSMS) + strong working knowledge of PostgreSQL, Oracle
-Query optimization under real load (not textbook examples)
-Indexing strategies, execution plan analysis, and cost-based tuning
-Handling large-scale transformations without killing production systems 😄
-📊 Analytics & Decision Systems
-Building Power BI semantic models for operational decision-making
-KPI systems for warehouse, logistics, and retail operations
-Designing dashboards that answer:
-→ What changed? Why? What should we do next?
-📈 Applied Data Science (Not Just Theory)
-Demand forecasting pipelines:
-Holt-Winters, ARIMA, baseline benchmarking
-Feature engineering from transactional + behavioral signals
-Exception-aware modeling (e.g., non-stationary demand, onboarding spikes)
-Working toward:
-ML-based forecasting (LightGBM / hybrid models)
-Model monitoring & drift detection
-🔁 Automation & Reproducibility
-Python-driven reporting pipelines (PDF generation, scheduling, email delivery)
-Dockerized environments for reproducible analytics workflows
-Task orchestration concepts (Airflow-style thinking, even when tools are limited)
-🚀 Selected Projects (Real-World Driven)
-📦 demand-forecasting-retail
+I am especially interested in **modern data platforms**, including **Databricks, Data Lake, Lakehouse architecture, Delta Lake, and scalable analytics workflows**.
 
-End-to-end forecasting system for ERP-driven retail:
+---
 
-SQL extraction from live systems
-Python enrichment + feature engineering
-Exception handling (non-standard demand patterns)
-Forecast benchmarking + evaluation
-➡️ Designed for production realism, not Kaggle perfection
-⚡ sql-performance-lab
+## 🧠 Core Focus
 
-A practical framework for:
+- Data Engineering & ETL pipelines
+- SQL Server, ERP data, and operational databases
+- Power BI semantic models and business reporting
+- Databricks, Delta Lake, and Lakehouse architecture
+- Time-series forecasting and demand prediction
+- Python-based automation and analytics
+- Data storytelling for business decision-making
 
-Detecting slow queries
-Analyzing execution plans
-Suggesting optimization strategies
-➡️ Focus: automated SQL diagnostics
-🏗 erp-data-warehouse-bridge
+---
 
-Building a pseudo data warehouse layer on top of:
+## 🏗️ Data Platform & Lakehouse Interests
 
-ERP (SQL Server)
-External systems (MySQL / logistics)
-Power BI semantic model
-➡️ Solves the “no real DWH” problem in SMEs
-📑 atlas-erp-reverse-engineering
+I am building my skills around modern data architecture, especially:
 
-Documentation system for:
+- Data Lake and Lakehouse design
+- Bronze / Silver / Gold medallion architecture
+- Delta Lake concepts
+- Parquet-based data pipelines
+- Batch and incremental data processing
+- ERP → Lakehouse → BI / ML workflows
+- Scalable analytics beyond traditional data warehouses
 
-ERP configuration flows
-Business logic reconstruction
-Export pipelines (XML / reporting layer)
-➡️ Turning undocumented systems into structured knowledge
-📊 powerbi-kpi-framework
+My goal is to connect **legacy enterprise systems** with **modern analytical platforms**.
 
-Reusable KPI system:
+---
 
-Period-over-period comparison
-Employee-level performance tracking
-Dynamic filtering & semantic modeling
-➡️ Built for decision velocity, not static reporting
-🧰 Tech Stack (Used in Production Contexts)
+## 🚀 Projects
 
-Languages
-Python • SQL • VBA • Shell
+### 📦 Demand Forecasting for Retail & ERP Data
+A forecasting-oriented project focused on product-level demand prediction using ERP-based transactional data.
 
-Databases
-SQL Server • PostgreSQL • Oracle • MySQL
+Main scope:
+- SQL-based data extraction
+- Python data preparation
+- Time-series aggregation
+- Feature engineering
+- Forecasting with statistical and ML-oriented methods
+- Business-aware exception handling
 
-Data & BI
-Power BI • Power Query • Pandas • Statsmodels
+---
 
-Systems
-ERP (Godesys) • WMS • Logistics Systems
+### 🌊 Lakehouse Retail Pipeline
+A modern data platform prototype inspired by Databricks and Lakehouse architecture.
 
-Infrastructure & Dev
-Docker • Git • GitHub Actions
+Main scope:
+- Raw ERP-style data ingestion
+- Parquet-based storage
+- Bronze / Silver / Gold transformation layers
+- Delta Lake-ready design
+- BI-ready and ML-ready output datasets
 
-🎓 Current Focus
-Advanced time-series forecasting under real constraints
-Lakehouse architectures (Databricks / Fabric mindset)
-IBM / Snowflake / Oracle ecosystem certification paths
-Bridging ML models → business deployment
-🧩 What Makes My Work Different
-I don’t separate data engineering, analytics, and business logic —
-I integrate them into one pipeline.
-I work in imperfect environments (legacy ERP, no DWH, messy data)
-→ and still deliver structured, scalable solutions.
-I optimize for:
-clarity > complexity
-execution > theory
-impact > aesthetics
+---
+
+### ⚡ SQL Performance & Query Optimization
+A technical project focused on SQL diagnostics and performance improvement.
+
+Main scope:
+- Query analysis
+- Indexing strategy
+- Execution-plan thinking
+- Optimization patterns
+- SQL Server-focused performance tuning
+
+---
+
+### 📊 Power BI KPI & Decision Dashboard
+A business intelligence project focused on operational KPIs and decision support.
+
+Main scope:
+- Power BI semantic modeling
+- Dynamic KPI comparison
+- Period-over-period analysis
+- Warehouse / logistics / employee-level metrics
+- Dashboard storytelling
+
+---
+
+### 🧾 ERP Documentation & Business Logic Mapping
+A documentation-focused project for understanding and structuring ERP configuration and reporting logic.
+
+Main scope:
+- Reverse-engineering ERP workflows
+- Mapping business rules
+- Documenting configuration hierarchy
+- Translating operational logic into analytical logic
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Area | Tools / Concepts |
+|---|---|
+| Programming | Python, SQL, VBA, Shell scripting |
+| Databases | SQL Server, PostgreSQL, Oracle, MySQL, Cassandra |
+| Data Engineering | ETL, ELT, Parquet, data pipelines, batch processing |
+| Lakehouse | Databricks, Delta Lake, Medallion Architecture |
+| BI & Analytics | Power BI, Power Query, DAX, Excel |
+| Data Science | Pandas, Scikit-learn, Statsmodels, time-series forecasting |
+| DevOps | Git, GitHub, Docker |
+| Enterprise Systems | ERP systems, WMS, logistics data, operational reporting |
+
+---
+
+## 🎓 Currently Learning
+
+- Databricks and Lakehouse architecture
+- Delta Lake and medallion pipelines
+- Snowflake and modern cloud data platforms
+- IBM Data Engineering pathway
+- Advanced forecasting and anomaly detection
+- MLOps and model monitoring
+
+---
+
+## 🧩 What Defines My Work
+
+I like building systems that are:
+
+- Practical
+- Explainable
+- Business-aware
+- Technically structured
+- Scalable enough to survive real-world messiness
+
+I am not interested in data work that only looks impressive in theory.  
+I care about pipelines, models, and dashboards that can actually support decisions.
+
+
+Thanks for visiting my GitHub.
