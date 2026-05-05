@@ -1,74 +1,107 @@
-# 👋 Welcome to My GitHub
+👋 Welcome — Arghavan | Data Systems Architect & Applied Data Scientist
 
-Hi there! I’m Arghavan – a passionate and persistent IT professional with a rich background in database architecture, SQL optimization, ERP systems, and data science. I specialize in building efficient, scalable, and insightful systems that bridge the gap between raw data and real-world decisions.
+I design and operationalize data systems that actually drive decisions—not dashboards that look pretty and die quietly.
 
----
+With a foundation in enterprise ERP environments, database architecture, and analytics, I work at the intersection of data engineering, BI, and applied machine learning. My focus is pragmatic: build pipelines, validate assumptions, and deliver outputs that stakeholders can act on.
 
-##  What I Do
+🧠 What I Work On (In Practice)
+⚙️ Data Architecture & Engineering
+Designing end-to-end data pipelines (SQL → Python → Lakehouse / BI)
+Working with heterogeneous systems: ERP (Godesys), WMS, MySQL services, SQL Server
+Building data warehouse layers (fact/dimension modeling, incremental loads, CDC-ready design)
+Solving real-world constraints: legacy systems, inconsistent schemas, limited infra
+🗄 Database Systems & Performance
+Deep expertise in SQL Server (SSMS) + strong working knowledge of PostgreSQL, Oracle
+Query optimization under real load (not textbook examples)
+Indexing strategies, execution plan analysis, and cost-based tuning
+Handling large-scale transformations without killing production systems 😄
+📊 Analytics & Decision Systems
+Building Power BI semantic models for operational decision-making
+KPI systems for warehouse, logistics, and retail operations
+Designing dashboards that answer:
+→ What changed? Why? What should we do next?
+📈 Applied Data Science (Not Just Theory)
+Demand forecasting pipelines:
+Holt-Winters, ARIMA, baseline benchmarking
+Feature engineering from transactional + behavioral signals
+Exception-aware modeling (e.g., non-stationary demand, onboarding spikes)
+Working toward:
+ML-based forecasting (LightGBM / hybrid models)
+Model monitoring & drift detection
+🔁 Automation & Reproducibility
+Python-driven reporting pipelines (PDF generation, scheduling, email delivery)
+Dockerized environments for reproducible analytics workflows
+Task orchestration concepts (Airflow-style thinking, even when tools are limited)
+🚀 Selected Projects (Real-World Driven)
+📦 demand-forecasting-retail
 
-- 🛠 **Database Engineering & Performance Tuning**
-  - 10+ years of experience in SQL Server, PostgreSQL, Oracle, and Cassandra
-  - SQL performance tuning, indexing strategies, query optimization
-  - Data integrity, normalization, and high-availability solutions
+End-to-end forecasting system for ERP-driven retail:
 
--  **Data Science & Analytics**
-  - Forecasting models using Holt-Winters, ARIMA, and function approximation
-  - Data storytelling with Power BI dashboards and ETL pipelines
-  - Academic research in Customer Churn Prediction and Inventory Optimization
+SQL extraction from live systems
+Python enrichment + feature engineering
+Exception handling (non-standard demand patterns)
+Forecast benchmarking + evaluation
+➡️ Designed for production realism, not Kaggle perfection
+⚡ sql-performance-lab
 
-- ⚙ **DevOps & Automation**
-  - Integrating Docker, Python, and SQL for reproducible environments
-  - Hands-on with GitHub workflows, CI/CD, and containerized deployments
+A practical framework for:
 
--  **Lifelong Learner**
-  - Currently pursuing certifications in IBM, Snowflake, and Oracle
-  - Studying Data Lakes, AI-powered analytics, and real-time data streams
-  - Blending classical computing knowledge with cutting-edge tech
+Detecting slow queries
+Analyzing execution plans
+Suggesting optimization strategies
+➡️ Focus: automated SQL diagnostics
+🏗 erp-data-warehouse-bridge
 
----
+Building a pseudo data warehouse layer on top of:
 
-##  Projects I'm Proud Of
+ERP (SQL Server)
+External systems (MySQL / logistics)
+Power BI semantic model
+➡️ Solves the “no real DWH” problem in SMEs
+📑 atlas-erp-reverse-engineering
 
-- `sales-forecasting-py-sql`: A full pipeline using Holt-Winters & SQL for retail demand prediction
-- `sql-perf-optimizer`: Analyze and auto-tune SQL queries with Python
-- `godesys-atlas-docs`: Reverse-engineered ERP configuration documentation
-- `powerbi-datafusion`: A no-SQL warehouse bridge between ERP and Power BI
+Documentation system for:
 
-Check out the pinned repositories on my profile!
+ERP configuration flows
+Business logic reconstruction
+Export pipelines (XML / reporting layer)
+➡️ Turning undocumented systems into structured knowledge
+📊 powerbi-kpi-framework
 
----
+Reusable KPI system:
 
-## 🔧 Tools & Technologies
+Period-over-period comparison
+Employee-level performance tracking
+Dynamic filtering & semantic modeling
+➡️ Built for decision velocity, not static reporting
+🧰 Tech Stack (Used in Production Contexts)
 
-| Area           | Tools/Tech Stack                                     |
-|----------------|------------------------------------------------------|
-| Programming    | Python, SQL, VBA, Shell Scripting                    |
-| Databases      | SQL Server, Oracle, Cassandra, PostgreSQL, Snowflake|
-| ERP/BI         | SAP ERP, Power BI, Excel PowerQuery             |
-| DevOps         | Docker, Git, GitHub Actions                         |
-| Analytics      | Pandas, Scikit-learn, Statsmodels, Plotly           |
+Languages
+Python • SQL • VBA • Shell
 
----
+Databases
+SQL Server • PostgreSQL • Oracle • MySQL
 
-## 🎓 Currently Learning
+Data & BI
+Power BI • Power Query • Pandas • Statsmodels
 
-- Snowflake Cloud Data Platform & Data Lakes
-- IBM Certified Data Engineer pathway
-- Advanced time-series modeling & anomaly detection
-- Oracle Autonomous DB and AI integration
+Systems
+ERP (Godesys) • WMS • Logistics Systems
 
----
+Infrastructure & Dev
+Docker • Git • GitHub Actions
 
-## 🤝 Let’s Connect
-
-Feel free to reach out if you're into:
-- Nerding out over data problems
-- Collaborating on SQL or forecasting projects
-- Or just need someone to debug your query nightmares
-
-> ⚠️ This GitHub reflects a journey of persistence, curiosity, and deep dives. I'm always updating, refactoring, and learning.
-
----
-
-
-
+🎓 Current Focus
+Advanced time-series forecasting under real constraints
+Lakehouse architectures (Databricks / Fabric mindset)
+IBM / Snowflake / Oracle ecosystem certification paths
+Bridging ML models → business deployment
+🧩 What Makes My Work Different
+I don’t separate data engineering, analytics, and business logic —
+I integrate them into one pipeline.
+I work in imperfect environments (legacy ERP, no DWH, messy data)
+→ and still deliver structured, scalable solutions.
+I optimize for:
+clarity > complexity
+execution > theory
+impact > aesthetics
